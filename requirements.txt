@@ -1,0 +1,5 @@
+streamlit==1.19.0
+streamlit-lottie==0.0.3
+streamlit-option-menu==0.3.2
+requests @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_516b78ce-034d-4395-b9b5-1d78c2847384qtnol99l/croots/recipe/requests_1657734628886/work
+joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
