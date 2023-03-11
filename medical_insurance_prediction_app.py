@@ -10,7 +10,7 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 # LOADING THE SAVED MODEL,ONE-HOT-ENCODER,SCALER
-loaded_model = pickle.load(open('/Users/mac/Downloads/Model_Deployment_1/medical_insurance_prediction_streamlit/medical_insurance_model.sav','rb'))
+loaded_model = pickle.load(open('medical_insurance_model.sav','rb'))
 loaded_encoder = pickle.load(open('/Users/mac/Downloads/Model_Deployment_1/medical_insurance_prediction_streamlit/One_Hot_Encoder.sav','rb'))
 loaded_scaler = pickle.load(open('/Users/mac/Downloads/Model_Deployment_1/medical_insurance_prediction_streamlit/Scaler.sav','rb'))
 
