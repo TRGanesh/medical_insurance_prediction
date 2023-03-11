@@ -41,7 +41,7 @@ def main():
     def local_css(file_name):
         with open(file_name) as f:
             st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
-    local_css('/Users/mac/Downloads/Model_Deployment_1/medical_insurance_prediction_streamlit/style.css')        
+    local_css('style.css')        
     
     # TITLE
     st.title('Medical Insurance Prediction')
