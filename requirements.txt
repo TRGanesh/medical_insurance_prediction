@@ -3,7 +3,6 @@ streamlit_lottie
 numpy
 opencv_python
 Pillow
-pickle
 joblib
 requests
 json
