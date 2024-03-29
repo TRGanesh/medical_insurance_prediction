@@ -55,5 +55,35 @@ Performed the following tasks to explore the dataset:
   - **Non_Outliers belongs to the Range (Q1 - 1.5 * IQR, Q3 + 1.5 * IQR)**
 ---
 **Dependencies for Machine learning from Scikit-Learn**
-1. **Train-Test Split :** Data is split into a Training Set (for Model Training) and a Test Set (for Model Evaluation), with a Common Split Ratio such as 70/30 or 80/20
+1. **Train-Test Split :** Data is split into a Training Set (for Model Training) and a Test Set (for Model Evaluation), with a Common Split Ratio such as 70/30 or 80/20.
 2. **GridSearchCV :** Automates the Parameter Selection and Cross-Validation, simplifying the Optimization Process
+3. **One-Hot Encoder :** Used for Categorical Variable Encoding. Transforms Categorical Features into a Binary Array, with each column representing a Unique category.
+4. **StandardScaler :** Standardizes Features by making Mean to 0 & Standard Deviation to 1. Making them Comparable across Different Scales.
+5. **Pickle :** Used to save the Machine Learning files, such as StandardScaler, OneHotEncoder..
+---
+Models used are 
+<pre>
+<b>Linear Regression</b>
+<b>ElasticNet Regression</b>
+<b>Stochastic Gradient Descent Regressor</b>
+<b>Support Vector Regressor</b>
+<b>Random Forest Regressor</b>
+<b>K-Neighbors Regressor</b>
+</pre>
+---
+### Data Preprocessing
+- Splitted the Dataset into Training & Testing parts
+- Encoding the Categorical Features
+- Scaling both Training & Testing data
+---
+### Modelling
+- Created Instances of the Machine Learning Models using Scikit-Learn functions
+- Fitting the Models(having default Parameters) with Scaled & Transformed X_train & Y_train data
+- Created Parameter Grids for Machine Learning Models to pass in GridSearchCV
+- Also Fitted GridSearchCV Models with Training Data
+- Printed the Best Parameters(which are suitable for the Current Dataset) for each Model
+- With those Best Parameters created the Final Models and Compared Regression Metrics
+
+<img width="858" alt="Screenshot 2024-03-30 at 12 02 33 AM" src="https://github.com/TRGanesh/medical_insurance_prediction/assets/117368449/e1a8a984-29ea-4346-a139-dc95138f999d">
+
+- Files such as Scaler, One Hot Encoder, Final Model are Saved using Pickle Module
