@@ -8,9 +8,8 @@ To create a Machine Learning Model that can estimate the annual medical expendit
 
 ---
 
-**About Dataset:**  
+**About Dataset & Columns:**  
 Dataset contains actual medical charges incurred by over 1300 customers.  
-**Columns**:
 ``` bash
 age - Age of the customer 
 sex - Gender of the customer
