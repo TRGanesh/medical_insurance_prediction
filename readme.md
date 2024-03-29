@@ -87,3 +87,10 @@ Models used are
 <img width="858" alt="Screenshot 2024-03-30 at 12 02 33 AM" src="https://github.com/TRGanesh/medical_insurance_prediction/assets/117368449/e1a8a984-29ea-4346-a139-dc95138f999d">
 
 - Files such as Scaler, One Hot Encoder, Final Model are Saved using Pickle Module
+---
+### Streamlit WebApp
+- Used Streamlit and created a WebApp where user can enter the Field Values
+
+<img width="878" alt="Screenshot 2024-03-30 at 12 17 04 AM" src="https://github.com/TRGanesh/medical_insurance_prediction/assets/117368449/b4705b83-6898-4e32-acb0-01d1424d0862">
+
+**WebApp Link :** [Click Here](https://trganesh-medical-insura-medical-insurance-prediction-app-3zrpy3.streamlit.app/)
