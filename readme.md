@@ -70,6 +70,15 @@ Models used are
 <b>K-Neighbors Regressor</b>
 </pre>
 ---
+
+Metrics used are
+<pre>
+<b>Mean Absolute Error</b>
+<b>Root Mean Squared Error</b>
+<b>R2 Score</b>
+</pre>
+
+---
 ### Data Preprocessing
 - Splitted the Dataset into Training & Testing parts
 - Encoding the Categorical Features
